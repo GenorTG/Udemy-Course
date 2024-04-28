@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap");
+@tailwind base;
+
+@layer base {
+  html {
+    @apply text-surface;
+    @apply bg-white;
+  }
+  html.dark {
+    @apply text-neutral-50;
+    @apply bg-body-dark;
+  }
+}
+
+@tailwind components;
+@tailwind utilities;
+
+p {
+  @apply leading-[1.6];
+}
+
+@layer utilities {
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+
+  .flex-between {
+    @apply flex justify-between items-center;
+  }
+
+  .cmix-1 {
+    @apply bg-primary text-secondary;
+  }
+  .cmix-2 {
+    @apply bg-primary text-tertiary;
+  }
+  .cmix-3 {
+    @apply bg-primary text-light;
+  }
+  .cmix-4 {
+    @apply bg-secondary text-primary;
+  }
+  .cmix-5 {
+    @apply bg-secondary text-dark;
+  }
+  .cmix-6 {
+    @apply bg-tertiary text-primary;
+  }
+  .cmix-7 {
+    @apply bg-tertiary text-light;
+  }
+}
