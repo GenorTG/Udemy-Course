@@ -1,4 +1,4 @@
-import { ServiceScoreData } from 'containers/BillTipping'
+import { ServiceScoreData } from '@/containers/BillTipping'
 
 type ServiceScoreProps = {
   data: ServiceScoreData
@@ -25,7 +25,7 @@ const ServiceScore = ({
       >
         {Array.from({ length: 21 }).map((_, i) => (
           <option key={i} value={i * 5}>
-            {i * 5}
+            {i * 5}%
           </option>
         ))}
       </select>

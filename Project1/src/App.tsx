@@ -11,6 +11,7 @@ const App = () => {
       >
         {/*static background*/}
       </div>
+
       {pathname != '/' && (
         <Link
           to={'/'}

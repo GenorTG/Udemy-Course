@@ -16,6 +16,10 @@ const Destinations = [
   {
     name: 'Bill Tipping',
     path: '/billtipping'
+  },
+  {
+    name: 'Bill Splitting',
+    path: '/billsplitting'
   }
 ]
 

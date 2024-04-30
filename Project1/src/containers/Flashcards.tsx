@@ -1,4 +1,4 @@
-import Flashcard from 'components/Flashcard'
+import Flashcard from '@/components/Flashcard'
 
 export type flashcard = { front: string; back: string }
 

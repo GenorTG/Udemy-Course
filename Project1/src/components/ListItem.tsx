@@ -1,5 +1,5 @@
-import { ListItemType } from 'containers/ListMaker'
-import { cn } from 'lib/utils'
+import { ListItemType } from '@/containers/ListMaker'
+import { cn } from '@/lib/utils'
 import { useState } from 'react'
 import { FaDeleteLeft } from 'react-icons/fa6'
 import { IoRadioButtonOffSharp, IoRadioButtonOn } from 'react-icons/io5'

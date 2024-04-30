@@ -6,13 +6,14 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 const queryClient = new QueryClient()
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import App from 'App'
-import ErrorPage from 'containers/ErrorPage'
-import Home from 'containers/Home'
-import ListMaker from 'containers/ListMaker'
-import Flashcards from 'containers/Flashcards'
-import AccordionShowcase from 'containers/AccordionShowcase'
-import BillTipping from 'containers/BillTipping'
+import App from '@/App'
+import ErrorPage from '@/containers/ErrorPage'
+import Home from '@/containers/Home'
+import ListMaker from '@/containers/ListMaker'
+import Flashcards from '@/containers/Flashcards'
+import AccordionShowcase from '@/containers/AccordionShowcase'
+import BillTipping from '@/containers/BillTipping'
+import BillSplitting from '@/containers/BillSplitting'
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
       {
         path: 'BillTipping',
         element: <BillTipping />
+      },
+      {
+        path: 'billsplitting',
+        element: <BillSplitting />
       }
     ]
   }

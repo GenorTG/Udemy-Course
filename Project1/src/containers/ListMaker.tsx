@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import Adder from 'components/Adder'
-import ListItem from 'components/ListItem'
-import Stats from 'components/Stats'
+import Adder from '@/components/Adder'
+import ListItem from '@/components/ListItem'
+import Stats from '@/components/Stats'
 import { MdExpandLess, MdExpandMore } from 'react-icons/md'
-import Header from 'components/Header'
+import Header from '@/components/Header'
 
 export type ListItemType = {
   type: 'number' | 'weight'

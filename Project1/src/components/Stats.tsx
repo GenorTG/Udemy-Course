@@ -1,4 +1,4 @@
-import { ListItemType } from 'containers/ListMaker'
+import { ListItemType } from '@/containers/ListMaker'
 
 type StatsProps = {
   items: ListItemType[]

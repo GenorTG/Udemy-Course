@@ -1,4 +1,4 @@
-import { ServiceScoreData } from 'containers/BillTipping'
+import { ServiceScoreData } from '@/containers/BillTipping'
 
 const TipResult = ({ data }: { data: ServiceScoreData }) => {
   let result: string = ''

@@ -1,4 +1,4 @@
-import { ServiceScoreData } from 'containers/BillTipping'
+import { ServiceScoreData } from '@/containers/BillTipping'
 
 type HowMuchProps = {
   data: ServiceScoreData

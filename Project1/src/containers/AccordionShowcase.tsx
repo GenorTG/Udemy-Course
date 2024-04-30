@@ -1,4 +1,4 @@
-import CustomAccordion from 'components/CustomAccordion'
+import CustomAccordion from '@/components/CustomAccordion'
 import { useState } from 'react'
 
 type AccordionContent = {

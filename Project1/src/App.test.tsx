@@ -1,4 +1,4 @@
-import { render, screen } from 'lib/test-utils'
+import { render, screen } from '@/lib/test-utils'
 import App from 'App'
 
 describe('App', () => {

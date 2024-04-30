@@ -1,7 +1,7 @@
-import HowMuch from 'components/BillComponents/HowMuch'
-import ResetTipButton from 'components/BillComponents/ResetTipButton'
-import ServiceScore from 'components/BillComponents/ServiceScore'
-import TipResult from 'components/BillComponents/TipResult'
+import HowMuch from '@/components/BillComponents/HowMuch'
+import ResetTipButton from '@/components/BillComponents/ResetTipButton'
+import ServiceScore from '@/components/BillComponents/ServiceScore'
+import TipResult from '@/components/BillComponents/TipResult'
 import { useState } from 'react'
 
 export type ServiceScoreData = {

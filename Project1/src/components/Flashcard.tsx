@@ -1,5 +1,5 @@
-import { flashcard } from 'containers/Flashcards'
-import { cn } from 'lib/utils'
+import { flashcard } from '@/containers/Flashcards'
+import { cn } from '@/lib/utils'
 import { useState } from 'react'
 
 const Flashcard = ({ front, back }: flashcard) => {
